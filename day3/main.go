@@ -9,8 +9,7 @@ import (
 	"strings"
 )
 
-// this is overkill
-var fabric [3000][3000]int
+var fabric [1000][1000]int
 
 type Claim struct {
 	Id      int
